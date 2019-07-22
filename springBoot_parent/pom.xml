@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.lulu</groupId>
+  <artifactId>springBoot_parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>父项目</name>
+  <description>maven父项目包管理</description>
+  <modules>
+  	<module>springBoot_advice</module>
+  	<module>springBoot_aspect</module>
+  	<module>springBoot_controller</module>
+  	<module>springBoot_entity</module>
+  	<module>springBoot_feign</module>
+  	<module>springBoot_kafka</module>
+  	<module>springBoot_netty</module>
+  	<module>springBoot_rabbitMQ</module>
+  	<module>springBoot_repository</module>
+  	<module>springBoot_service</module>
+  	<module>springBoot_schedule</module>
+  	<module>springBoot_websocket</module>
+  	<module>springBoot_swagger</module>
+  	<module>springBoot_thread</module>
+  </modules>
+</project>
