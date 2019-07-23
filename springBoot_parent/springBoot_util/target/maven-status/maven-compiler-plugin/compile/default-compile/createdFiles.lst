@@ -1,0 +1,6 @@
+com\mego\util\ByteUtil.class
+com\mego\util\CrcUtil.class
+com\mego\util\EntityUtil.class
+com\mego\serializer\DateToYYYYMMDDHHmmssSerializer.class
+com\mego\serializer\DateToYYYYMMDDSerializer.class
+com\mego\util\DateUtil.class
