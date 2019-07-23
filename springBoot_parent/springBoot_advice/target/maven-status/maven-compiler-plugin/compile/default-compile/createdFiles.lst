@@ -1,1 +1,3 @@
-org\springBoot_advice\App.class
+com\mego\advice\ControllerOfAdvice.class
+com\mego\advice\RestControllerOfAdvice.class
+com\mego\entity\MyException.class
