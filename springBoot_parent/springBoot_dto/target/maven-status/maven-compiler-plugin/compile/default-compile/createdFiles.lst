@@ -1,0 +1,8 @@
+com\mego\dto\UserDto.class
+com\mego\dto\Result$ErrorCode.class
+com\mego\dto\Result.class
+com\mego\dto\MenuDto.class
+com\mego\dto\BaseDto.class
+com\mego\dto\PageDto.class
+com\mego\dto\CmdDto.class
+com\mego\dto\LampDto.class
