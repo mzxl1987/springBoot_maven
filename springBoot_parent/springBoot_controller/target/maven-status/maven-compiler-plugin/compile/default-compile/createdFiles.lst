@@ -1,1 +1,2 @@
-org\springBoot_controller\App.class
+com\mego\controller\HomeController.class
+com\mego\controller\rest\RestfulController.class
