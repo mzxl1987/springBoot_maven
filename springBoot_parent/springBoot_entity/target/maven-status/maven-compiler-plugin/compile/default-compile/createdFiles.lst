@@ -1,1 +1,5 @@
-org\springBoot_entity\App.class
+com\miicrown\entity\Cmd.class
+com\miicrown\entity\User.class
+com\miicrown\entity\BaseEntity.class
+com\miicrown\entity\Lamp.class
+com\miicrown\entity\Menu.class
