@@ -1,1 +1,4 @@
-org\springBoot_repository\App.class
+com\mego\repository\BaseRepository.class
+com\mego\repository\UserRepository.class
+com\mego\repository\LampRepository.class
+com\mego\repository\MenuRepository.class
