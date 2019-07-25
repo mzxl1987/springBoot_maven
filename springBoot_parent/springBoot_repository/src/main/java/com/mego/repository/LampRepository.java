@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.miicrown.entity.Lamp;
+import com.mego.entity.Lamp;
 
 @Repository
 public interface LampRepository extends BaseRepository<Lamp> {

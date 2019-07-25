@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.miicrown.entity.User;
+import com.mego.entity.User;
 
 @Repository
 public interface UserRepository extends BaseRepository<User> {

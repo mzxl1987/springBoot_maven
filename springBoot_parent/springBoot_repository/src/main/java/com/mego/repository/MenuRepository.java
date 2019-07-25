@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.miicrown.entity.Menu;
+import com.mego.entity.Menu;
 
 @Repository
 public interface MenuRepository extends BaseRepository<Menu> {

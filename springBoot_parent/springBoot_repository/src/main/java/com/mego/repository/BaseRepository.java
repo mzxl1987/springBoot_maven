@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.stereotype.Repository;
 
-import com.miicrown.entity.BaseEntity;
+import com.mego.entity.BaseEntity;
 
 @Repository
 @NoRepositoryBean
