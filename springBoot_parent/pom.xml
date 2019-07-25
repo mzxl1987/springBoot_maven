@@ -26,6 +26,7 @@
 		<module>springBoot_util</module>
 		<module>springBoot_dto</module>
     	<module>springBoot_config</module>
+    <module>springBoot_eureka</module>
   </modules>
 
 	<properties>
