@@ -1,1 +1,6 @@
-C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\org\springBoot_kafka\App.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\consumer\KafkaConsumer.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\consumer\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\producer\ProducerRestController.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\producer\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_kafka\src\main\java\com\mego\kafka\producer\KafkaProducer.java

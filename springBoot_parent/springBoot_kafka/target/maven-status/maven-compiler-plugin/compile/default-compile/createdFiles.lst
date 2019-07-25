@@ -1,1 +1,3 @@
-org\springBoot_kafka\App.class
+com\mego\kafka\consumer\KafkaConsumer.class
+com\mego\kafka\producer\KafkaProducer.class
+com\mego\kafka\producer\ProducerRestController.class
