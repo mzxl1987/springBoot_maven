@@ -1,10 +1,11 @@
 package com.mego.dto;
 
-import java.awt.Menu;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.BeanUtils;
+
+import com.mego.entity.Menu;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
