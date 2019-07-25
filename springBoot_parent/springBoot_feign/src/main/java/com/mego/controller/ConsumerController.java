@@ -1,11 +1,11 @@
 package com.mego.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mego.service.FeignService;
-import com.miicrown.entity.User;
 
 /**
  * Created by cong on 2018/5/17.

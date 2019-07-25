@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.miicrown.entity.User;
+import com.mego.dto.UserDto;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -29,13 +29,13 @@ public class FeignController {
 	}
 	
 	@RequestMapping(value = "/hello2", method= RequestMethod.GET)
-    public User hello(@RequestHeader String name, @RequestHeader Integer age) {
+    public Object hello(@RequestHeader String name, @RequestHeader Integer age) {
 		log.info("访问feign.hello2");
-        return new User();
+        return new UserDto();
     }
 	
 	@RequestMapping(value = "/hello3", method = RequestMethod.POST)
-    public String hello(@RequestBody User user) {
+    public String hello(@RequestBody UserDto user) {
 		log.info("访问feign.hello3");
         return "Hello "+ user.getUsername() + ", " + user.getPassword();
     }

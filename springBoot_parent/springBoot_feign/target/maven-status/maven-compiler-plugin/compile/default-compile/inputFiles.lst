@@ -1,1 +1,7 @@
-C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\org\springBoot_feign\App.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\controller\FeignController.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\service\FeignService.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\fallback\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\controller\ConsumerController.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\service\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\controller\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_feign\src\main\java\com\mego\fallback\FeignFallBack.java

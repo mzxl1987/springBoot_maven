@@ -1,1 +1,4 @@
-org\springBoot_feign\App.class
+com\mego\service\FeignService.class
+com\mego\controller\ConsumerController.class
+com\mego\controller\FeignController.class
+com\mego\fallback\FeignFallBack.class
