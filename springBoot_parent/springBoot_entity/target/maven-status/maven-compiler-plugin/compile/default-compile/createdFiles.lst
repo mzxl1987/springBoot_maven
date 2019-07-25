@@ -1,5 +1,5 @@
-com\miicrown\entity\Cmd.class
-com\miicrown\entity\User.class
-com\miicrown\entity\BaseEntity.class
-com\miicrown\entity\Lamp.class
-com\miicrown\entity\Menu.class
+com\mego\entity\Cmd.class
+com\mego\entity\BaseEntity.class
+com\mego\entity\Lamp.class
+com\mego\entity\Menu.class
+com\mego\entity\User.class
