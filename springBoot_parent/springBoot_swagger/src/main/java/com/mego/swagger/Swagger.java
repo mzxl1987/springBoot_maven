@@ -19,7 +19,7 @@ public class Swagger {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.apiInfo(getApiInfo())
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.miicrown.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.mego.controller"))
 				.paths(PathSelectors.any())
 				.build();
 	}
@@ -30,9 +30,9 @@ public class Swagger {
 		return new ApiInfo(
 				"Spring Cloud Web 测试系统",
 				"SpringBoot系统集成的测试",
-				"V20190319",
-				"http://www.baidu.com",
-				"NanJing Miicrown",
+				"V20190725",
+				"http://localhost:8080",
+				"NanJing Mego",
 				"Lisense GNU",
 				"http://www.baidu.com"
 				);

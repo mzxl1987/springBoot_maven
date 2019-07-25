@@ -26,6 +26,7 @@ public class EchoServer {
 	
 	public static ConcurrentHashMap<ChannelId, Channel> dic_channel = new ConcurrentHashMap<ChannelId, Channel>();
 	
+	@SuppressWarnings("unused")
 	private final Configuration configuration;
 	private final Configuration configCopy;
 	

@@ -25,9 +25,11 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional(rollbackOn=Exception.class)
 public class ApiServiceImpl implements ApiService{
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 	
@@ -52,7 +54,7 @@ public class ApiServiceImpl implements ApiService{
 		return r;
 	}
 	
-	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@SuppressWarnings({ })
 	public Object permission(User user, HttpServletRequest request){
 		
 		String request_token = request.getParameter("token");

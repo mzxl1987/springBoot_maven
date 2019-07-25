@@ -16,16 +16,90 @@
   <dependencies>
 
 	<!-- Module 依赖  -->
-    
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_advice</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_aspect</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_config</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
     <dependency>
       <groupId>com.lulu</groupId>
       <artifactId>springBoot_controller</artifactId>
       <version>${parent.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_dto</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_entity</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_feign</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_kafka</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_netty</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_rabbitMQ</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_repository</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_schedule</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_service</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
     	<groupId>com.lulu</groupId>
     	<artifactId>springBoot_swagger</artifactId>
     	<version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_thread</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_util</artifactId>
+      <version>${parent.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.lulu</groupId>
+      <artifactId>springBoot_websocket</artifactId>
+      <version>${parent.version}</version>
     </dependency>
     
 	

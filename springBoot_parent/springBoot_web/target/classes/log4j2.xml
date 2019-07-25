@@ -37,5 +37,8 @@
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="File" />
 		</Root>
+		<!-- <Root level="all">
+			<AppenderRef ref="File" />
+		</Root> -->
 	</Loggers>
 </Configuration>

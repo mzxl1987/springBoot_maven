@@ -3,16 +3,21 @@ package com.mego.advice;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.mego.entity.MyException;
+import com.mego.entity.ViewException;
 
 @ControllerAdvice
 public class ControllerOfAdvice {
 
+	private final String ERROR_VIEWPAGE = "error";
+	
 	/**
      * 全局异常捕捉处理
      * @param ex
@@ -48,10 +53,11 @@ public class ControllerOfAdvice {
      * @param ex
      * @return
      */
-    @ExceptionHandler(value = MyException.class)
-    public ModelAndView viewMyErrorHandler(MyException ex) {
+    @ExceptionHandler(value = ViewException.class)
+    public ModelAndView viewMyErrorHandler(HttpServletRequest request, MyException ex) {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("error");
+        modelAndView.setViewName(ERROR_VIEWPAGE);
+        modelAndView.addObject("url", request.getRequestURL());
         modelAndView.addObject("code", ex.getCode());
         modelAndView.addObject("msg", ex.getMsg());
         return modelAndView;

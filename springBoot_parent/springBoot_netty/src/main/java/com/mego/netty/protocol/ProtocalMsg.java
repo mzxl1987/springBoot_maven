@@ -1,11 +1,9 @@
 package com.mego.netty.protocol;
 
-import java.io.Serializable;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufUtil;
 import io.netty.buffer.Unpooled;
 
 public class ProtocalMsg {
@@ -19,6 +17,7 @@ public class ProtocalMsg {
 	/**
 	 * 
 	 */
+	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
 
 	private int head;

@@ -2,15 +2,59 @@
     <wb-module deploy-name="springBoot_web">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <dependent-module archiveName="springBoot_controller-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_controller/springBoot_controller">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-test-sources/test-annotations"/>
         <dependent-module archiveName="springBoot_advice-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_advice/springBoot_advice">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="springBoot_aspect-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_aspect/springBoot_aspect">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_config-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_config/springBoot_config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_controller-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_controller/springBoot_controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_dto-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_dto/springBoot_dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_entity-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_entity/springBoot_entity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_feign-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_feign/springBoot_feign">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_kafka-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_kafka/springBoot_kafka">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_netty-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_netty/springBoot_netty">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_rabbitMQ-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_rabbitMQ/springBoot_rabbitMQ">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_repository-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_repository/springBoot_repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_schedule-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_schedule/springBoot_schedule">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_service/springBoot_service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="springBoot_swagger-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_swagger/springBoot_swagger">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_thread-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_thread/springBoot_thread">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_util-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_util/springBoot_util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="springBoot_websocket-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/springBoot_websocket/springBoot_websocket">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="springBoot_web"/>

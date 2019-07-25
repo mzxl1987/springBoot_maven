@@ -11,7 +11,7 @@ import com.mego.entity.MyException;
 public class RestfulController {
 
 
-	@RequestMapping(value="/exception", method = RequestMethod.POST, produces="application/json")
+	@RequestMapping(value="/exception", method = RequestMethod.GET, produces="application/json")
 	public int exception() throws Exception{
 		throw new MyException("303", "异常");
 	}	

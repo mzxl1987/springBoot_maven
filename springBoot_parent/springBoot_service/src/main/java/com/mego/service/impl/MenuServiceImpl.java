@@ -27,9 +27,11 @@ public class MenuServiceImpl implements MenuService{
 	
 	private MenuDto nav;
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private RestTemplate restTemplate;
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 	

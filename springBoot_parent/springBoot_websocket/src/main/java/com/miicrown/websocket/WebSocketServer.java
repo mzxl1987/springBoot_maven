@@ -12,7 +12,6 @@ import javax.websocket.Session;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 import lombok.extern.slf4j.Slf4j;

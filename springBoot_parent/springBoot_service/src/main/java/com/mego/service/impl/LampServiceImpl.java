@@ -7,7 +7,6 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,6 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 @Transactional(rollbackFor=Exception.class)
 public class LampServiceImpl implements LampService{
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private RestTemplate restTemplate;
 	
@@ -182,7 +182,7 @@ public class LampServiceImpl implements LampService{
 	 */
 	@Override
 	public PageDto QueryPage(Lamp obj,PageDto p) throws Exception {
-		PageRequest pr = new PageRequest(p.getStart() / p.getLimit(), p.getLimit());
+		PageRequest pr = PageRequest.of(p.getStart() / p.getLimit(), p.getLimit());
 		Page<Lamp> page = lampRepository.QueryPage(obj, pr);
 		
 		p.setTotalCount(page.getTotalElements());

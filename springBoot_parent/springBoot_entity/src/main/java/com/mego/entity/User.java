@@ -3,7 +3,6 @@ package com.mego.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import javax.persistence.Transient;
 
 @Entity
 @Table(name="t_user")

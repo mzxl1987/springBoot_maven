@@ -31,7 +31,7 @@ public class LogAspect {
 	public static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss SSS");
 	public static final Calendar calendar = Calendar.getInstance();
 	
-	@Pointcut("execution(* com.miicrown..*.*(..))")
+	@Pointcut("execution(* com.mego..*.*(..))")
 	public void PointCut(){}
 	
 	/**

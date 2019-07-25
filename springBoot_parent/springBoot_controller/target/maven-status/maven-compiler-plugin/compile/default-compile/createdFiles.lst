@@ -1,2 +1,3 @@
+com\mego\controller\ErrorController.class
 com\mego\controller\HomeController.class
 com\mego\controller\rest\RestfulController.class
