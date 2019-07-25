@@ -1,4 +1,4 @@
-package com.miicrown.entity;
+package com.mego.entity;
 
 import java.io.Serializable;
 import java.util.Date;

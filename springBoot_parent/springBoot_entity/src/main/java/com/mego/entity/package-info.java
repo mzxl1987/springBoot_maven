@@ -5,4 +5,4 @@
  * @author Administrator
  *
  */
-package com.miicrown.entity;
+package com.mego.entity;

@@ -1,4 +1,4 @@
-package com.miicrown.entity;
+package com.mego.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
