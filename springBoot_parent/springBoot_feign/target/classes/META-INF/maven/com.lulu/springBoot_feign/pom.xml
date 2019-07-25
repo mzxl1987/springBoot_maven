@@ -42,7 +42,7 @@
 		    <groupId>org.springframework.cloud</groupId>
 		    <artifactId>spring-cloud-starter-openfeign</artifactId>
 	    </dependency>
-        
+	    
         <!-- spring cloud END -->
         
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->

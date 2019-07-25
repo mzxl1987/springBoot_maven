@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Implementation-Title: springBoot_eureka
+Implementation-Title: springBoot_eurekaserver
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: Administrator
 Implementation-Vendor-Id: com.lulu

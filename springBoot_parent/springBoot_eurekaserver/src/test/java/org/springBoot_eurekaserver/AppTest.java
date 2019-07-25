@@ -1,4 +1,4 @@
-package org.springBoot_eureka;
+package org.springBoot_eurekaserver;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

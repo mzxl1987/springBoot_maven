@@ -11,6 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
+
 @ComponentScan(basePackages="com.mego.*")
 @EnableAutoConfiguration
 @EnableAspectJAutoProxy(proxyTargetClass=true)
@@ -18,6 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EntityScan(basePackages="com.mego.*")
 @EnableJpaRepositories(basePackages="com.mego.*")
 @EnableTransactionManagement
+
 public class App {
 
 	public static void main(String[] args) {
