@@ -1,1 +1,3 @@
-org\springBoot_rabbitMQ\App.class
+com\mego\rabbitMQ\RabbitMQConfig.class
+com\mego\rabbitMQ\consumer\Consumer.class
+com\mego\rabbitMQ\producer\Producer.class

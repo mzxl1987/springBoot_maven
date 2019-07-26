@@ -1,1 +1,6 @@
-C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\org\springBoot_rabbitMQ\App.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\consumer\Consumer.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\producer\Producer.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\producer\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\RabbitMQConfig.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\package-info.java
+C:\Users\Administrator\git\springBoot_maven\springBoot_parent\springBoot_rabbitMQ\src\main\java\com\mego\rabbitMQ\consumer\package-info.java
