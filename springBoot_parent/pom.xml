@@ -42,7 +42,7 @@
 		<mysql>8.0.16</mysql>
 		<net.sourceforge.nekohtml>1.9.22</net.sourceforge.nekohtml>
 		<org.aspectj>1.9.4</org.aspectj>
-		<io.netty>4.1.34.Final</io.netty>
+		<io.netty>4.1.71.Final</io.netty>
 		<io.springfox>2.8.0</io.springfox>
 		<org.projectlombok>1.18.8</org.projectlombok>
 		<junit>3.8.1</junit>
