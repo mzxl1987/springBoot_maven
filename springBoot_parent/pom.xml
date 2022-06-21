@@ -39,7 +39,7 @@
 		<org.springframework.cloud>1.4.6.RELEASE</org.springframework.cloud>
 		<org.springframework.cloud.dependence>Finchley.SR2</org.springframework.cloud.dependence>
 		<spring.cloud.starter.openfeign>2.0.2.RELEASE</spring.cloud.starter.openfeign>
-		<mysql>8.0.16</mysql>
+		<mysql>8.0.28</mysql>
 		<net.sourceforge.nekohtml>1.9.22</net.sourceforge.nekohtml>
 		<org.aspectj>1.9.4</org.aspectj>
 		<io.netty>4.1.34.Final</io.netty>
